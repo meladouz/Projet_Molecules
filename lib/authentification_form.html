@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaire Authentification</title>
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+    <!-- FORMULAIRE DE CONNECTION -->
+    <div class="formulaire card mt-4">
+      <div class="container text-center">
+        <h1>Please sign in</h1>
+        <h3>Signin to manage your account.</h3>
+      </div>
+
+      <div class="container form-group mt-4">
+        <label for="email">Adresse e-mail :</label>
+        <input type="email" name="email"  class="form-control" placeholder="Enter email">
+      </div>
+
+      <div class="container form-group">
+        <label for="email">Mot de passe :</label>
+        <input type="password" name="password"  class="form-control" placeholder="Password">
+      </div>
+
+      <div class="container form-group ">
+        <div class="d-flex justify-content-between">
+          <div class="checkbox">
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" value="remember-me">
+                <strong>Remember me</strong>
+            </label>
+          </div>
+          <div>
+            <a href="#"><strong>Forgot password ?</strong></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container form-group">
+        <button type="submit" class="btn btn-block btn-primary">Signin</button>
+      </div>
+
+      <div class="container text-center">
+        Do not have an account? <a href="#"><strong>Signup</strong></a>
+      </div>
+    </div>
+
+
+    <!-- FORMULAIRE DE RECUPERATION DE PASSWORD -->
+    <div class="formulaire card mt-4 text-center">
+      <h1>Forgot password ?</h1>
+      <div class="container form-group">
+        <label for=""></label>
+        <input type="email" name="email"  class="form-control" value="email">
+        <div class="container form-group">
+          <button type="submit" class="btn btn-primary">Send me an email</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FORMULAIRE D'INSCRIPTION-->
+    <div class="formulaire card mt-4">
+      <div class="container text-center">
+        <h1>Please sign up</h1>
+        <h3>Sign up for obtain all access</h3>
+    ​  </div>
+        <div class="container form-group">
+          <label for="pseudo">Pseudo :</label>
+          <input type="pseudo" name="pseudo"  class="form-control" value="Pseudo">
+            <label for="email">Email :</label>
+          <input type="email" name="email"  class="form-control" value="email">
+            <label for="password">Password :</label>
+          <input type="password" name="password"  class="form-control" value="password">
+            <label for="confirm password">Confirm password :</label>
+          <input type="password" name="password-check"  class="form-control" value="password">
+        </div>
+
+        <div class="container form-group text-center">
+          <button type="submit" class="btn btn-block btn-primary">Signin</button>
+        </div>
+    </div>
+    ​
+    <!-- FORMULAIRE DE MODIFICATION DE PASSWORD -->
+    <div class="formulaire card mt-4">
+      <div class="container text-center ">
+        <h1>Change Password</h1>
+      </div>
+        <div class="container form-group">
+          <label for="email">Email :</label>
+            <input type="email" name="email"  class="form-control" value="email">
+          <label for="password">Previous Password :</label>
+            <input type="password" name="password"  class="form-control" value="password">
+          <label for="confirm password">New Password :</label>
+            <input type="password" name="password"  class="form-control" value="password">
+          <label for="confirm password">Confirm New Password :</label>
+            <input type="password" name="password-check"  class="form-control" value="password">
+        </div>
+        <div class="container form-group text-center mb-4">
+          <button type="submit" class="btn btn-block btn-primary">Signin</button>
+        </div>
+    </div>
+
+    <!-- RETOUR INDEX -->
+    <div class="container mt-4 text-center">
+      <a  href="index.html">Retour accueil</a>
+    </div>
+
+  </body>
+</html>
