@@ -2027,6 +2027,7 @@ pre code {
 }
 
 .form-control {
+  margin-bottom: 15px;
   display: block;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
@@ -5478,12 +5479,29 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
+  height: 600px;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #073642;
   border-radius: 0.3rem;
+  background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=http%3A%2F%2Fpavbca.com%2Fwalldb%2Foriginal%2Fb%2Fa%2F3%2F751130.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 3px 3px black;
 }
-
+.jumbotron-small {
+  height: 400px;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #073642;
+  border-radius: 0.3rem;
+  background-image: url("http://www.tech-prastish.com/wp-content/uploads/2015/08/contact-us-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 3px 3px black;
+}
 @media (min-width: 576px) {
   .jumbotron {
     padding: 4rem 2rem;
@@ -10869,4 +10887,19 @@ a.text-dark:hover, a.text-dark:focus {
 .alert-light a:not(.btn),
 .alert-light .alert-link {
   color: #002B36;
+}
+
+.formulaire{
+  margin: 0 30% 0 30%;
+  padding-top: 30px;
+}
+
+.banner {
+  display:flex;
+  justify-content: end;
+  margin: 10% 10% 0 0;
+}
+
+.banniere {
+  border: 1px solid #002B36;
 }
